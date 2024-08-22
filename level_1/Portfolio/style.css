@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+h1, h2 {
+    color: #333;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+h1 {
+    font-size: 2.5rem;
+}
+p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+}
+#about img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+}
+#about p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Skills Section */
+#skills {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+#skills h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+#skills li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px;
+    background-color: #fff;
+}
+.project {
+    margin-bottom: 20px;
+}
+.project img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+/* achievements Section */
+#achievements {
+    padding: 40px;
+    background-color:#f9f9f9;
+}
+.achievements {
+    margin-bottom: 20px;
+}
+.achievements img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+/* Resume Section */
+#resume {
+    padding: 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+#resume a {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+#contact p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+footer p {
+    font-size: 1rem;
+    color: #666;
+}
